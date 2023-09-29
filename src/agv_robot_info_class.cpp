@@ -18,5 +18,5 @@ void AGVRobotInfo::publish_data() {
   msg.data_field_05 = "maximum_payload: " + maximum_payload;
 
   pub.publish(msg);
-  ROS_INFO("After publish v2");
+
 }
